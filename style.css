@@ -1,0 +1,151 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #E6EFE9;
+  background-image: url("https://images.unsplash.com/photo-1533558293735-949ef6ba2c3a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2775&q=80");
+  color: rgb(50,50,50);
+  font-size: 14px;
+  line-height: 30px;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color: #847979
+  font-size: 1.3em;
+}
+
+h2 {
+  color: #C0BCB5
+  font-size: 1.2em;
+}
+
+h3 {
+  color: #C0BCB5
+  font-size: 1.1em;
+}
+
+a {
+  text-decoration: none;
+  opacity: 0.7;
+  color: #C0BCB5;
+}
+
+a:hover {
+  text-decoration: underline;
+  transition-duration: 0.5s;
+  font-size: 5em;
+}
+
+p {
+  font-size: 1em;
+  color: #847979;
+}
+
+@media (max-width: 1600px) {
+  .container {
+    width: 1200px auto;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px auto;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px auto;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px auto;
+  }
+}
+
+#header {
+  margin: 0;
+  position: relative;
+}
+
+.box {
+  background: #C0BCB5;
+  padding: 20px;
+  margin: 50px;
+  border: 1px solid #E6EFE9;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px #E6EFE9;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.banner {
+  background: #CBD4C2;
+  padding: 10px;
+  margin: 50px;
+  border: 1px solid #E6EFE9;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px #E6EFE9;
+}
+.banner h2 {
+  margin: 0;
+}
+
+#avatar_style {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: 1px solid #E6EFE9;
+}
+
+#social{
+  background: #C0BCB5;
+/*  padding: 20px auto;*/
+  margin: 50px;
+  border: 1px solid #E6EFE9;
+  border-radius: 10px;
+  text-align: center;
+  color: #E6EFE9;
+  /*font-size: 1em;*/
+  box-shadow: 1px 1px 3px #E6EFE9;
+}
+#social p{
+  color: #E6EFE9;
+}
+#social a{
+  display: inline-block;
+  font-size: 3em;
+  color: rgba(255,255,255,1);
+  margin: 0.5em 0px;
+}
+#social a:hover{
+  text-decoration: underline;
+  transition-duration: 0.5s;
+  color: #CBD4C2;
+  font-size: 4em;
+  margin: 0px;
+}
+#social ul,ol{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+table td{
+  padding: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
